@@ -1,0 +1,314 @@
+
+qwe test1.txt -v -o
+-v -o qwe test1.txt
+qwe -v -o test1.txt test2.txt
+-v -o -e bsn -e qwe test1.txt test2.txt
+-v -o -f patterns.txt test1.txt
+-f patterns.txt -v -o test1.txt test2.txt
+qwe test1.txt -c -l
+-c -l qwe test1.txt
+qwe -c -l test1.txt test2.txt
+-c -l -e bsn -e qwe test1.txt test2.txt
+-c -l -f patterns.txt test1.txt
+-f patterns.txt -c -l test1.txt test2.txt
+qwe test1.txt -l -c
+-l -c qwe test1.txt
+qwe -l -c test1.txt test2.txt
+-l -c -e bsn -e qwe test1.txt test2.txt
+-l -c -f patterns.txt test1.txt
+-f patterns.txt -l -c test1.txt test2.txt
+qwe test1.txt -o -v
+-o -v qwe test1.txt
+qwe -o -v test1.txt test2.txt
+-o -v -e bsn -e qwe test1.txt test2.txt
+-o -v -f patterns.txt test1.txt
+-f patterns.txt -o -v test1.txt test2.txt
+qwe test1.txt -i -v -o
+-i -v -o qwe test1.txt
+qwe -i -v -o test1.txt test2.txt
+-i -v -o -e bsn -e qwe test1.txt test2.txt
+-i -v -o -f patterns.txt test1.txt
+-f patterns.txt -i -v -o test1.txt test2.txt
+qwe test1.txt -i -c -l
+-i -c -l qwe test1.txt
+qwe -i -c -l test1.txt test2.txt
+-i -c -l -e bsn -e qwe test1.txt test2.txt
+-i -c -l -f patterns.txt test1.txt
+-f patterns.txt -i -c -l test1.txt test2.txt
+qwe test1.txt -i -l -c
+-i -l -c qwe test1.txt
+qwe -i -l -c test1.txt test2.txt
+-i -l -c -e bsn -e qwe test1.txt test2.txt
+-i -l -c -f patterns.txt test1.txt
+-f patterns.txt -i -l -c test1.txt test2.txt
+qwe test1.txt -i -o -v
+-i -o -v qwe test1.txt
+qwe -i -o -v test1.txt test2.txt
+-i -o -v -e bsn -e qwe test1.txt test2.txt
+-i -o -v -f patterns.txt test1.txt
+-f patterns.txt -i -o -v test1.txt test2.txt
+qwe test1.txt -v -i -o
+-v -i -o qwe test1.txt
+qwe -v -i -o test1.txt test2.txt
+-v -i -o -e bsn -e qwe test1.txt test2.txt
+-v -i -o -f patterns.txt test1.txt
+-f patterns.txt -v -i -o test1.txt test2.txt
+qwe test1.txt -v -c -l
+-v -c -l qwe test1.txt
+qwe -v -c -l test1.txt test2.txt
+-v -c -l -e bsn -e qwe test1.txt test2.txt
+-v -c -l -f patterns.txt test1.txt
+-f patterns.txt -v -c -l test1.txt test2.txt
+qwe test1.txt -v -l -c
+-v -l -c qwe test1.txt
+qwe -v -l -c test1.txt test2.txt
+-v -l -c -e bsn -e qwe test1.txt test2.txt
+-v -l -c -f patterns.txt test1.txt
+-f patterns.txt -v -l -c test1.txt test2.txt
+qwe test1.txt -v -n -o
+-v -n -o qwe test1.txt
+qwe -v -n -o test1.txt test2.txt
+-v -n -o -e bsn -e qwe test1.txt test2.txt
+-v -n -o -f patterns.txt test1.txt
+-f patterns.txt -v -n -o test1.txt test2.txt
+qwe test1.txt -v -h -o
+-v -h -o qwe test1.txt
+qwe -v -h -o test1.txt test2.txt
+-v -h -o -e bsn -e qwe test1.txt test2.txt
+-v -h -o -f patterns.txt test1.txt
+-f patterns.txt -v -h -o test1.txt test2.txt
+qwe test1.txt -v -o -i
+-v -o -i qwe test1.txt
+qwe -v -o -i test1.txt test2.txt
+-v -o -i -e bsn -e qwe test1.txt test2.txt
+-v -o -i -f patterns.txt test1.txt
+-f patterns.txt -v -o -i test1.txt test2.txt
+qwe test1.txt -v -o -n
+-v -o -n qwe test1.txt
+qwe -v -o -n test1.txt test2.txt
+-v -o -n -e bsn -e qwe test1.txt test2.txt
+-v -o -n -f patterns.txt test1.txt
+-f patterns.txt -v -o -n test1.txt test2.txt
+qwe test1.txt -v -o -h
+-v -o -h qwe test1.txt
+qwe -v -o -h test1.txt test2.txt
+-v -o -h -e bsn -e qwe test1.txt test2.txt
+-v -o -h -f patterns.txt test1.txt
+-f patterns.txt -v -o -h test1.txt test2.txt
+qwe test1.txt -c -i -l
+-c -i -l qwe test1.txt
+qwe -c -i -l test1.txt test2.txt
+-c -i -l -e bsn -e qwe test1.txt test2.txt
+-c -i -l -f patterns.txt test1.txt
+-f patterns.txt -c -i -l test1.txt test2.txt
+qwe test1.txt -c -v -l
+-c -v -l qwe test1.txt
+qwe -c -v -l test1.txt test2.txt
+-c -v -l -e bsn -e qwe test1.txt test2.txt
+-c -v -l -f patterns.txt test1.txt
+-f patterns.txt -c -v -l test1.txt test2.txt
+qwe test1.txt -c -l -i
+-c -l -i qwe test1.txt
+qwe -c -l -i test1.txt test2.txt
+-c -l -i -e bsn -e qwe test1.txt test2.txt
+-c -l -i -f patterns.txt test1.txt
+-f patterns.txt -c -l -i test1.txt test2.txt
+qwe test1.txt -c -l -v
+-c -l -v qwe test1.txt
+qwe -c -l -v test1.txt test2.txt
+-c -l -v -e bsn -e qwe test1.txt test2.txt
+-c -l -v -f patterns.txt test1.txt
+-f patterns.txt -c -l -v test1.txt test2.txt
+qwe test1.txt -c -l -n
+-c -l -n qwe test1.txt
+qwe -c -l -n test1.txt test2.txt
+-c -l -n -e bsn -e qwe test1.txt test2.txt
+-c -l -n -f patterns.txt test1.txt
+-f patterns.txt -c -l -n test1.txt test2.txt
+qwe test1.txt -c -l -h
+-c -l -h qwe test1.txt
+qwe -c -l -h test1.txt test2.txt
+-c -l -h -e bsn -e qwe test1.txt test2.txt
+-c -l -h -f patterns.txt test1.txt
+-f patterns.txt -c -l -h test1.txt test2.txt
+qwe test1.txt -c -l -o
+-c -l -o qwe test1.txt
+qwe -c -l -o test1.txt test2.txt
+-c -l -o -e bsn -e qwe test1.txt test2.txt
+-c -l -o -f patterns.txt test1.txt
+-f patterns.txt -c -l -o test1.txt test2.txt
+qwe test1.txt -c -n -l
+-c -n -l qwe test1.txt
+qwe -c -n -l test1.txt test2.txt
+-c -n -l -e bsn -e qwe test1.txt test2.txt
+-c -n -l -f patterns.txt test1.txt
+-f patterns.txt -c -n -l test1.txt test2.txt
+qwe test1.txt -c -h -l
+-c -h -l qwe test1.txt
+qwe -c -h -l test1.txt test2.txt
+-c -h -l -e bsn -e qwe test1.txt test2.txt
+-c -h -l -f patterns.txt test1.txt
+-f patterns.txt -c -h -l test1.txt test2.txt
+qwe test1.txt -c -o -l
+-c -o -l qwe test1.txt
+qwe -c -o -l test1.txt test2.txt
+-c -o -l -e bsn -e qwe test1.txt test2.txt
+-c -o -l -f patterns.txt test1.txt
+-f patterns.txt -c -o -l test1.txt test2.txt
+qwe test1.txt -l -i -c
+-l -i -c qwe test1.txt
+qwe -l -i -c test1.txt test2.txt
+-l -i -c -e bsn -e qwe test1.txt test2.txt
+-l -i -c -f patterns.txt test1.txt
+-f patterns.txt -l -i -c test1.txt test2.txt
+qwe test1.txt -l -v -c
+-l -v -c qwe test1.txt
+qwe -l -v -c test1.txt test2.txt
+-l -v -c -e bsn -e qwe test1.txt test2.txt
+-l -v -c -f patterns.txt test1.txt
+-f patterns.txt -l -v -c test1.txt test2.txt
+qwe test1.txt -l -c -i
+-l -c -i qwe test1.txt
+qwe -l -c -i test1.txt test2.txt
+-l -c -i -e bsn -e qwe test1.txt test2.txt
+-l -c -i -f patterns.txt test1.txt
+-f patterns.txt -l -c -i test1.txt test2.txt
+qwe test1.txt -l -c -v
+-l -c -v qwe test1.txt
+qwe -l -c -v test1.txt test2.txt
+-l -c -v -e bsn -e qwe test1.txt test2.txt
+-l -c -v -f patterns.txt test1.txt
+-f patterns.txt -l -c -v test1.txt test2.txt
+qwe test1.txt -l -c -n
+-l -c -n qwe test1.txt
+qwe -l -c -n test1.txt test2.txt
+-l -c -n -e bsn -e qwe test1.txt test2.txt
+-l -c -n -f patterns.txt test1.txt
+-f patterns.txt -l -c -n test1.txt test2.txt
+qwe test1.txt -l -c -h
+-l -c -h qwe test1.txt
+qwe -l -c -h test1.txt test2.txt
+-l -c -h -e bsn -e qwe test1.txt test2.txt
+-l -c -h -f patterns.txt test1.txt
+-f patterns.txt -l -c -h test1.txt test2.txt
+qwe test1.txt -l -c -o
+-l -c -o qwe test1.txt
+qwe -l -c -o test1.txt test2.txt
+-l -c -o -e bsn -e qwe test1.txt test2.txt
+-l -c -o -f patterns.txt test1.txt
+-f patterns.txt -l -c -o test1.txt test2.txt
+qwe test1.txt -l -n -c
+-l -n -c qwe test1.txt
+qwe -l -n -c test1.txt test2.txt
+-l -n -c -e bsn -e qwe test1.txt test2.txt
+-l -n -c -f patterns.txt test1.txt
+-f patterns.txt -l -n -c test1.txt test2.txt
+qwe test1.txt -l -h -c
+-l -h -c qwe test1.txt
+qwe -l -h -c test1.txt test2.txt
+-l -h -c -e bsn -e qwe test1.txt test2.txt
+-l -h -c -f patterns.txt test1.txt
+-f patterns.txt -l -h -c test1.txt test2.txt
+qwe test1.txt -l -o -c
+-l -o -c qwe test1.txt
+qwe -l -o -c test1.txt test2.txt
+-l -o -c -e bsn -e qwe test1.txt test2.txt
+-l -o -c -f patterns.txt test1.txt
+-f patterns.txt -l -o -c test1.txt test2.txt
+qwe test1.txt -n -v -o
+-n -v -o qwe test1.txt
+qwe -n -v -o test1.txt test2.txt
+-n -v -o -e bsn -e qwe test1.txt test2.txt
+-n -v -o -f patterns.txt test1.txt
+-f patterns.txt -n -v -o test1.txt test2.txt
+qwe test1.txt -n -c -l
+-n -c -l qwe test1.txt
+qwe -n -c -l test1.txt test2.txt
+-n -c -l -e bsn -e qwe test1.txt test2.txt
+-n -c -l -f patterns.txt test1.txt
+-f patterns.txt -n -c -l test1.txt test2.txt
+qwe test1.txt -n -l -c
+-n -l -c qwe test1.txt
+qwe -n -l -c test1.txt test2.txt
+-n -l -c -e bsn -e qwe test1.txt test2.txt
+-n -l -c -f patterns.txt test1.txt
+-f patterns.txt -n -l -c test1.txt test2.txt
+qwe test1.txt -n -o -v
+-n -o -v qwe test1.txt
+qwe -n -o -v test1.txt test2.txt
+-n -o -v -e bsn -e qwe test1.txt test2.txt
+-n -o -v -f patterns.txt test1.txt
+-f patterns.txt -n -o -v test1.txt test2.txt
+qwe test1.txt -h -v -o
+-h -v -o qwe test1.txt
+qwe -h -v -o test1.txt test2.txt
+-h -v -o -e bsn -e qwe test1.txt test2.txt
+-h -v -o -f patterns.txt test1.txt
+-f patterns.txt -h -v -o test1.txt test2.txt
+qwe test1.txt -h -c -l
+-h -c -l qwe test1.txt
+qwe -h -c -l test1.txt test2.txt
+-h -c -l -e bsn -e qwe test1.txt test2.txt
+-h -c -l -f patterns.txt test1.txt
+-f patterns.txt -h -c -l test1.txt test2.txt
+qwe test1.txt -h -l -c
+-h -l -c qwe test1.txt
+qwe -h -l -c test1.txt test2.txt
+-h -l -c -e bsn -e qwe test1.txt test2.txt
+-h -l -c -f patterns.txt test1.txt
+-f patterns.txt -h -l -c test1.txt test2.txt
+qwe test1.txt -h -o -v
+-h -o -v qwe test1.txt
+qwe -h -o -v test1.txt test2.txt
+-h -o -v -e bsn -e qwe test1.txt test2.txt
+-h -o -v -f patterns.txt test1.txt
+-f patterns.txt -h -o -v test1.txt test2.txt
+qwe test1.txt -o -i -v
+-o -i -v qwe test1.txt
+qwe -o -i -v test1.txt test2.txt
+-o -i -v -e bsn -e qwe test1.txt test2.txt
+-o -i -v -f patterns.txt test1.txt
+-f patterns.txt -o -i -v test1.txt test2.txt
+qwe test1.txt -o -v -i
+-o -v -i qwe test1.txt
+qwe -o -v -i test1.txt test2.txt
+-o -v -i -e bsn -e qwe test1.txt test2.txt
+-o -v -i -f patterns.txt test1.txt
+-f patterns.txt -o -v -i test1.txt test2.txt
+qwe test1.txt -o -v -n
+-o -v -n qwe test1.txt
+qwe -o -v -n test1.txt test2.txt
+-o -v -n -e bsn -e qwe test1.txt test2.txt
+-o -v -n -f patterns.txt test1.txt
+-f patterns.txt -o -v -n test1.txt test2.txt
+qwe test1.txt -o -v -h
+-o -v -h qwe test1.txt
+qwe -o -v -h test1.txt test2.txt
+-o -v -h -e bsn -e qwe test1.txt test2.txt
+-o -v -h -f patterns.txt test1.txt
+-f patterns.txt -o -v -h test1.txt test2.txt
+qwe test1.txt -o -c -l
+-o -c -l qwe test1.txt
+qwe -o -c -l test1.txt test2.txt
+-o -c -l -e bsn -e qwe test1.txt test2.txt
+-o -c -l -f patterns.txt test1.txt
+-f patterns.txt -o -c -l test1.txt test2.txt
+qwe test1.txt -o -l -c
+-o -l -c qwe test1.txt
+qwe -o -l -c test1.txt test2.txt
+-o -l -c -e bsn -e qwe test1.txt test2.txt
+-o -l -c -f patterns.txt test1.txt
+-f patterns.txt -o -l -c test1.txt test2.txt
+qwe test1.txt -o -n -v
+-o -n -v qwe test1.txt
+qwe -o -n -v test1.txt test2.txt
+-o -n -v -e bsn -e qwe test1.txt test2.txt
+-o -n -v -f patterns.txt test1.txt
+-f patterns.txt -o -n -v test1.txt test2.txt
+qwe test1.txt -o -h -v
+-o -h -v qwe test1.txt
+qwe -o -h -v test1.txt test2.txt
+-o -h -v -e bsn -e qwe test1.txt test2.txt
+-o -h -v -f patterns.txt test1.txt
+-f patterns.txt -o -h -v test1.txt test2.txt
+-lc qwe test1.txt test2.txt

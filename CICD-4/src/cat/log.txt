@@ -1,0 +1,25 @@
+
+-b -e test.txt
+-b -t test.txt
+-b -v test.txt
+-e -b test.txt
+-e -n test.txt
+-e -s test.txt
+-e -t test.txt
+-e -v test.txt
+-n -e test.txt
+-n -t test.txt
+-n -v test.txt
+-s -e test.txt
+-s -t test.txt
+-s -v test.txt
+-t -b test.txt
+-t -e test.txt
+-t -n test.txt
+-t -s test.txt
+-t -v test.txt
+-v -b test.txt
+-v -e test.txt
+-v -n test.txt
+-v -s test.txt
+-v -t test.txt
