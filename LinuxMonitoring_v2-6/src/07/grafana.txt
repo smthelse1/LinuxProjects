@@ -1,0 +1,37 @@
+grafana login: admin
+grafana password: changeme
+ubuntuuser password:changeme
+
+grafana start: sudo /bin/systemctl start grafana-server
+grafana shut-down: sudo /bin/systemctl enable grafana-server
+grafana host: http://localhost:3000
+prometheus cd: cd Downloads/prometheus.../ 
+prometheus start: ./prometheus --config.file=prometheus.yml
+prometheus shut-down: ctrl+c
+prometheus url: http://localhost:9090
+node_exporter start: ./node_exporter
+
+su - >> for root help(GOD)
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'node'  # Добавляем job для node_exporter
+    static_configs:
+      - targets: ['localhost:9100']  # node_exporter работает на 9100 порту
+
+
+зеленая полоска: Процент загрузки CPU
+желтая полоска: Свободная оперативная память
+синяя полоска: Свободное место на диске
+красная полоска: Операции ввода/вывода на диск
+
+Процент загрузки CPU - 100 - (avg by(instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100)
+
+Свободная оперативная память - node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes * 100
+
+Свободное место на диске - node_filesystem_avail_bytes{mountpoint="/"} / node_filesystem_size_bytes{mountpoint="/"} * 100
+
+Операции ввода/вывода на диск - rate(node_disk_io_time_seconds_total[5m])

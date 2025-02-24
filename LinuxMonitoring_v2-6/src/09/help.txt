@@ -1,0 +1,13 @@
+для запуска прометеуса- зайти в папку в загрузках и ввести ./prometheus --config.file=prometheus.yml (ДЛЯ ВЫХОДА CTRL+C)
+для запуска nginx - sudo systemctl start nginx - выход - sudo systemctl stop nginx - перезапуск sudo systemctl restart nginx
+grafana start: sudo /bin/systemctl start grafana-server
+grafana shut-down: sudo /bin/systemctl stop grafana-server
+grafana host: http://localhost:3000
+prometheus cd: cd Downloads/prometheus.../ 
+prometheus start: ./prometheus --config.file=prometheus.yml
+prometheus shut-down: ctrl+c
+prometheus url: http://localhost:9090
+su - >> for root help(GOD)
+node_exporter start: ./node_exporter
+
+/var/www/html/.. - для html файлов nginx
